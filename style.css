@@ -1,0 +1,41 @@
+ul {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	font-size: 18px;
+	display: inline;
+}
+#main {
+	position: absolute;
+	left: 50%;
+	top: 200px;
+	margin-left: -120px;
+}
+
+input {
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-left: -60px;
+	width: 360px;
+	height: 40px;
+}
+
+button {
+	padding: 10px;
+	margin: 10px;
+	margin-top: 20px;
+	font: Futura;
+	font-weight: bold;
+	border: 1px solid white;
+	opacity: 0.6;
+}
+
+button:hover {
+	border: 1px solid grey;
+	opacity: 1;
+}
